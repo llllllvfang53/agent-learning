@@ -1,0 +1,11 @@
+# 核心框架（可选，纯标准库实现也可运行）
+# langgraph>=0.2.0          # 若希望切换到 LangGraph 官方编排（本项目自带轻量状态机替代）
+# openai>=1.30.0           # LLM 调用（OpenAI 兼容协议）
+
+# 真实运行模式依赖
+# tavily-python>=0.3.0     # 搜索 API
+# trafilatura>=1.6.0       # 网页正文提取
+# chromadb>=0.4.0          # 向量库（可选）
+
+# 测试 / 开发
+pytest>=7.0.0
